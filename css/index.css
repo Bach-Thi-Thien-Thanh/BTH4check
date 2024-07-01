@@ -1,0 +1,182 @@
+.TQ{
+    width: 100%;
+}
+.container{
+    width: 1067px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.header1{
+    display: flex;
+    flex-direction: row;
+}
+.header div ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.header1 div ul li{
+    padding:10px;
+    font-weight: bolder;
+}
+.header1 div ul li:hover{
+    cursor: pointer;
+    border-radius: 5%;
+    border-bottom:solid black;
+}
+.header1 div ul li a{
+    text-decoration: none;
+    color: black;
+}
+.header1 .timkiem{
+    width: 100%;
+    padding: 5px;
+    padding-right: 40px;
+    background-color: rgb(243, 245, 247);
+    border: solid 0.1px;
+}
+.button{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.432); 
+    border: 1px solid rgba(255, 255, 255, 0); 
+    margin-top: 15px;
+    border-radius:15%;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-around;
+}
+.center .MSI{
+    background-image: url(/images/msi-2019.jpg);
+    height: 455px; 
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.center .MSI div a{
+    text-decoration: none;
+    color: white;
+}
+.center .Play{
+    background-image:url(/images/msi-2019-players.jpg);
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.center .Play div a{
+    text-decoration: none;
+    color: white;
+}
+.center .hang{
+    display: flex;
+    flex-direction: row;
+}
+.center .Xuathien{
+    background-image: url(/images/levi-jdk.jpg);
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.center .Xuathien div a{
+    text-decoration: none;
+    color: white;
+}
+.center .Hera{
+    background-image: url(/images/kieu-anh-hera.jpg);
+    height: 200px;
+    width: 265px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.center .Hera div a{
+    text-decoration: none;
+    color: white;
+}
+.tintuc{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+}
+.gachchan{
+    width: 60px;
+    border: solid 1px rgb(241, 129, 30);
+    border-radius: 10%;
+}
+.tintuc .anh{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.tintuc .anh div a{
+    text-decoration: none;
+    color: black;
+}
+.tintuc .cot{
+    display: flex;
+    flex-direction: column;
+}
+.button1{
+    background-color: white;
+    border: solid 2px rgb(223, 220, 220);
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color:rgb(170, 170, 170);
+}
+.tintuc .baiviet{
+    padding-top: 20px;
+    text-align: justify;
+    font-size: 01rem;
+}
+.tintuc .baiviet div a{
+    text-decoration: none;
+    color: black;
+}
+.container1{
+    width: 100%;
+    background-color: rgb(79, 78, 78);
+}
+.end{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.end .mangxh{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.button2{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(85, 85, 85);
+    border: 1px solid rgba(255, 255, 255, 0); 
+    margin-top: 15px;
+}
+.end1{
+    background-color: rgb(14, 14, 14);
+    color: rgb(204, 201, 201);
+    padding: 10px;
+    font-size: 0.8rem;
+}
+.dophu{
+    background-color: rgba(0, 0, 0, 0.322);
+}
